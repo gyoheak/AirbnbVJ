@@ -1,0 +1,18 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 5%;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.95);
+  transition: background-color 0.3s ease-in-out;
+}
+
+.header.scrolled {
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.logo {
+  height: 1px;
+  width: auto;
+}
